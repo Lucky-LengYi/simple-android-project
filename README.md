@@ -1,3 +1,9 @@
 # PM25 Simple Demo
 
-首先请查阅Skype群获取TOKEN，填写在AirServiceClient.class中，不要忘记交作业哦:-)
+做的比较简单、请批评指正。。。
+
+![Alt text](./image/1.jpg)
+
+![Alt text](./image/2.jpg)
+
+![Alt text](./image/3.jpg)

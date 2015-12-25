@@ -9,6 +9,20 @@ public class PM25 {
     @SerializedName("quality")
     private String quality;
 
+    @SerializedName("pm2_5")
+    private String pm25;
+
+    @SerializedName("time_point")
+    private String timePoint;
+
+    public String getTimePoint() {
+        return timePoint;
+    }
+
+    public void setTimePoint(String timePoint) {
+        this.timePoint = timePoint;
+    }
+
     public String getPositionName() {
         return positionName;
     }
@@ -23,5 +37,13 @@ public class PM25 {
 
     public void setQuality(String quality) {
         this.quality = quality;
+    }
+
+    public String getPm25() {
+        return pm25;
+    }
+
+    public void setPm25(String quality) {
+        this.pm25 = pm25;
     }
 }
